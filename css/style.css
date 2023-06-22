@@ -1,3 +1,4 @@
+/********** Template CSS **********/
 :root {
     --primary: #2124B1;
     --secondary: #4777F5;
@@ -197,6 +198,16 @@ h6,
     background-repeat: no-repeat;
 }
 
+.watermark-container {
+    position: relative;
+  }
+  
+  .watermark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.5; /* Adjust the opacity as desired */
+  }
 
 /*** Section Title ***/
 .section-title::before {
@@ -294,6 +305,7 @@ h6,
     transition: .5s;
     z-index: 1;
 }
+
 
 .service-item:hover a.btn {
     color: var(--primary);
