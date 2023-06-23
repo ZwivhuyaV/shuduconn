@@ -288,6 +288,11 @@ h6,
     background: url(../img/icon-shape-white.png);
 }
 
+.fas  {
+color: white;
+font-size: 28px;
+
+}
 .service-item h5,
 .service-item p {
     transition: .5s;
@@ -353,7 +358,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
-    color: #888888;
+    color: #100e0e;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item i {
