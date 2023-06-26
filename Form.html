@@ -33,6 +33,20 @@
 </head>
 
 <body>
+
+        <style>
+                .app {
+                  margin: auto;
+                  width: 60%;
+                  border: 3px solid #73AD21;
+                  padding: 10px;
+                  margin-top: 80px;
+                  margin-bottom: 60px;
+                }
+                </style>
+
+
+
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -97,6 +111,237 @@
             </div>
         </div>
         <!-- Full Screen Search End -->
+
+
+              <!-- application form -->
+              <div class="container-xxl py-5">
+                <div class="container px-lg-5">
+                    <div class="section-title position-relative text-center mb-5 pb-2 wow fadeInUp" data-wow-delay="0.1s">
+                        <h3 class="mt-2">Find A Candidate Application Form</h3>
+                    </div> 
+                </div>
+                <div class="app">
+                    <h2>Employment Application Form</h2>
+                   <form action="https://getform.io/f/5609e966-3226-4d48-8e70-1d88db127c38" method="POST">
+                    <label id="savedDataLbl" style=" width:100%;border: 2px solid black;border-right-style:none;border-left-style:none;"> <b>Personal Details</b></label>
+                    
+                
+                    <table style="border:4;width:100%;">
+                      <tr>
+                        <td><label for="Firstname" >First name:</label></td>
+                       <td><label for="Lastname" id="" name="">Last name:</label></td>
+                    
+                     </tr>
+                
+                     <tr>
+                      <td><input id="name" name="Firstname" type="text" class="fcf-form-control"></td>
+                      <td><input id="lname" name="Lastname" type="text" class="fcf-form-control" ></td>
+                    </tr>
+                  </table>
+                
+                  <table style="border:4;width:100%;">
+                    <tr>
+                      <td><label for="Address">Address</label></td>
+                     <td><label for="City">City</label></td>
+                     <td><label for="State">Province</label></td>
+                     <td><label for="Code">ZIP/PIN Code</label></td>
+                   </tr>
+                
+                   <tr>
+                    <td><input id="address" name="Address" type="text" class="fcf-form-control"></td>
+                    <td><input id="city" name="City" type="text" class="fcf-form-control"></td>
+                    <td><input id="state" name="Province" type="text" class="fcf-form-control"></td>
+                    <td><input id="code" name="Code" type="text" class="fcf-form-control"></td>
+                  </tr>
+                </table>
+                
+                <table style="border:0;width:100%;">
+                  <tr>
+                    <td><label for="PhoneNumber">Phone Number</label></td>
+                   <td><label for="Email">Email Address</label></td>
+                   <td><label for="Birthday">Date of Birth</label></td>
+                   
+                 </tr>
+                
+                 <tr>
+                  <td><input id="phoneNo" name="Phone_Number" type="number" class="fcf-form-control"></td>
+                  <td><input id="email" name="Email" type="email" class="fcf-form-control"></td>
+                  <td><input type="date" id="birthday" name="Birthday" class="fcf-form-control"></td>
+                </tr>
+                </table>
+                
+                <label id="savedDataLbl" style=" width:100%;border: 2px solid black;border-right-style:none;border-left-style:none;"> <b>ADDITIONAL INFORMATION</b></label>
+                     <table style="border:4;width:40%;">
+                       <tr>
+                         <td><label for="authorization">Are you legally authorized to work in SA?</label></td>
+                      </tr>
+                
+                      <tr>
+                       <td><input id="authorization" name="Allow_to_work_in_SA" type="text" placeholder="YES/NO" class="fcf-form-control"></td>
+                     </tr>
+                     </table>
+                
+                     <table style="border:4;width:40%;">
+                      <tr>
+                        <td><label for="criminal">Do you have a criminal record?</label></td>
+                     </tr>
+                
+                     <tr>
+                      <td><input id="criminal" name="Criminal_Record" type="text" placeholder="YES/NO" class="fcf-form-control"></td>
+                    </tr>
+                    </table>
+                
+                    <table style="border:4;width:40%;">
+                      <tr>
+                        <td><label for="past">Have you been employed by this organization in the past?</label></td>
+                     </tr>
+                
+                     <tr>
+                      <td><input id="past" name="History_With_Organization" type="text" placeholder="YES/NO" class="fcf-form-control"></td>
+                    </tr>
+                    </table>
+                
+                     <label id="savedDataLbl" style=" width:100%;border: 2px solid black;border-right-style:none;border-left-style:none;"> <b>POSITION DETAILS</b></label>
+                
+                     <table style="border:0;width:100%;">
+                      <tr>
+                        <td><p>Position you are applying for*: </p></td>
+                        <td><p>Available Start Date: </p></td>
+                        <td><p>Desired Pay:  </p></td>
+                     </tr>
+                
+                     <tr>
+                      <td><input type="text" id="position" name="Position" class="fcf-form-control"></td>
+                      <td><input type="date" id="startdate" name="Start_Date" class="fcf-form-control"></td>
+                      <td><input type="text" id="pay" name="Desired_Pay" class="fcf-form-control"></td>
+                   </tr>
+                
+                   </table>
+                
+                   <p>Employment Type: </p>
+                   <table style="width:100%;">
+                    <tr>
+                      <td><input type="radio" id="fullTime" name="Employment_Type" value="">Full-Time </input></td>
+                      <td><input type="radio" id="partTime" name="Employment_Type" value="">Part-Time</input></td>
+                      <td><input type="radio" id="temporary" name="Employment_Type" value="">Temporary</input></td>
+                      <td><input type="radio" id="internship" name="Employment_Type" value="">Internship</input></td>
+                    </tr>
+                   </table>
+                
+                
+                   <label id="savedDataLbl" style=" width:100%;border: 2px solid black;border-right-style:none;border-left-style:none;"> <b>EDUCATION</b></label>
+                
+                  <table name="table2" id="t2" style="width:100%;">
+                    <tr>
+                      <th><label for="School">School/college</label></th>
+                      <th><label for="Year">Year</label></th>
+                      <th><label for="Degree">Degree</label></th>
+                      <th><label for="Results">Results</label></th>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="school" name="School" class="fcf-form-control"></td>
+                      <td><input type="number" id="year" name="Year" class="fcf-form-control"></td>
+                      <td><input type="text" id="degree" name="Degree" class="fcf-form-control"></td>
+                      <td><input type="number" id="results" name="Results" class="fcf-form-control"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="school" name="School" class="fcf-form-control"></td>
+                      <td><input type="number" id="year" name="Year" class="fcf-form-control"></td>
+                      <td><input type="text" id="degree" name="Degree" class="fcf-form-control"></td>
+                      <td><input type="number" id="results" name="Results" class="fcf-form-control"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="school" name="School" class="fcf-form-control"></td>
+                      <td><input type="number" id="year" name="Year" class="fcf-form-control"></td>
+                      <td><input type="text" id="degree" name="Degree" class="fcf-form-control"></td>
+                      <td><input type="number" id="results" name="Results" class="fcf-form-control"></td>
+                    </tr>
+                  </table>
+                
+                  <br><label id="savedDataLbl" style=" width:100%;border: 2px solid black;border-right-style:none;border-left-style:none;"> <b>WORK EXPERIENCE</b></label>
+                    
+                  <table style="border:0;width:100%;">
+                    <tr>
+                      <td><p>Employer Name:  </p></td>
+                        <td><p>Designation:  </p></td>
+                        <td><p>Employment dates:   </p></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="empName" name="EmployeeName" class="fcf-form-control"></td>
+                      <td><input type="text" id="designation" name="Designation" class="fcf-form-control"></td>
+                      <td><input type="date" id="empdate" name="EmpName" class="fcf-form-control"></td>
+                    </tr>
+                  </table>
+                
+                  <p>Responsibilities: </p>
+                  <input type="text" id="responsibilities" name="Responsibilities" class="fcf-form-control">
+                
+                  <table style="border:0;width:100%;">
+                    <tr>
+                      <td><p>Employer Name:  </p></td>
+                        <td><p>Designation:  </p></td>
+                        <td><p>Employment dates:   </p></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="empName" name="EmployeeName" class="fcf-form-control"></td>
+                      <td><input type="text" id="designation" name="Designation" class="fcf-form-control"></td>
+                      <td><input type="date" id="empdate" name="EmpName" class="fcf-form-control"></td>
+                    </tr>
+                  </table>
+                
+                  <p>Responsibilities: </p>
+                  <input type="text" id="responsibilities" name="Responsibilities" class="fcf-form-control">
+                
+                  <label id="savedDataLbl" style=" width:100%;border: 2px solid black;border-right-style:none;border-left-style:none;"> <b>REFERENCE( Professional or Business only) </b></label>
+                
+                  <table name="table2" id="t2" style="width:100%;">
+                    <tr>
+                      <th><p>Name:  </p></th>
+                        <th><p>Phone Number  </p></th>
+                        
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="refName" name="Reference_Name" class="fcf-form-control"></td>
+                      <td><input type="number" id="refNo" name="Reference_Number" class="fcf-form-control"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="refName" name="Reference_Name" class="fcf-form-control"></td>
+                      <td><input type="number" id="refNo" name="Reference_Number" class="fcf-form-control"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" id="refName" name="Reference_Name" class="fcf-form-control"></td>
+                      <td><input type="number" id="refNo" name="Reference_Number" class="fcf-form-control"></td>
+                    </tr>
+                  </table>
+                
+                <br><p>I certify that all information and answers provided by me above is true and complete 
+                  to the best of my knowledge. I understand that if this application leads to employment, any false 
+                  or misleading information or answer in my application may lead to my employment being terminated.</p>
+                
+                  <table style="border:0;width:100%;">
+                    <tr>
+                      <td><p>Name </p></td>
+                      <td><p>Date  </p></td>
+                   </tr>
+                
+                   <tr>
+                    <td><input type="text" id="firstname" name="Firstname" class="fcf-form-control"></td>
+                    <td><input type="date" id="date" name="signedDate" class="fcf-form-control"></td>
+                 </tr>
+                
+                 </table>
+                
+                    
+                    
+                
+                 <div class="fcf-form-group">
+                  <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+                
+                   </form>
+                </div>
+            </div>
+            <!-- application form -->
         
         
         
@@ -164,5 +409,19 @@
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
 </body>
+!--   core js files    -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.js" type="text/javascript"></script>
+
+<!--  js library for devices recognition -->
+<script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+<!--  script for google maps   -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<!--   file where we handle all the script from the Gaia - Bootstrap Template   -->
+<script type="text/javascript" src="assets/js/gaia.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script> -->
 
 </html>
