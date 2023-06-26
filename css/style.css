@@ -539,3 +539,20 @@ font-size: 28px;
     padding-right: 0;
     border-right: none;
 }
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .dropdown-options {
+    display: none;
+    position: absolute;
+    overflow: auto;
+  }
+  
+  .dropdown:hover .dropdown-options {
+    display: block;
+  }
+
+  
