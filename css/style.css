@@ -104,7 +104,7 @@ h6,
 }
 
 .navbar-light .navbar-brand img {
-    max-height: 120px;
+    max-height: 60px;
     transition: .5s;
 }
 
@@ -291,8 +291,8 @@ h6,
 .fas  {
 color: white;
 font-size: 28px;
-}
 
+}
 .service-item h5,
 .service-item p {
     transition: .5s;
@@ -471,12 +471,6 @@ font-size: 28px;
     transition-delay: .15s;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
 
 /*** Footer ***/
 .footer {
@@ -545,20 +539,3 @@ font-size: 28px;
     padding-right: 0;
     border-right: none;
 }
-
-.dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .dropdown-options {
-    display: none;
-    position: absolute;
-    overflow: auto;
-  }
-  
-  .dropdown:hover .dropdown-options {
-    display: block;
-  }
-
-  
