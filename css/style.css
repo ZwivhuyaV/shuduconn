@@ -471,6 +471,12 @@ font-size: 28px;
     transition-delay: .15s;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
 
 /*** Footer ***/
 .footer {
