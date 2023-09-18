@@ -91,7 +91,7 @@ h6,
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
-    color: var(--dark) !important;
+    color: var(--light) !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -100,7 +100,7 @@ h6,
 }
 
 .navbar-light .navbar-brand h1 {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .navbar-light .navbar-brand img {
@@ -115,12 +115,12 @@ h6,
 @media (max-width: 991.98px) {
     .sticky-top.navbar-light {
         position: relative;
-        background: #FFFFFF;
+        background: #ffffff;
     }
 
     .navbar-light .navbar-collapse {
         margin-top: 15px;
-        border-top: 1px solid #DDDDDD;
+        border-top: 1px solid #dddddd;
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -151,7 +151,7 @@ h6,
     
     .sticky-top.navbar-light {
         position: fixed;
-        background: #FFFFFF;
+        background: #2124b1;
     }
 
     .navbar-light .navbar-nav .nav-link::before {
@@ -176,7 +176,7 @@ h6,
     }
 
     .sticky-top.navbar-light .navbar-brand h1 {
-        color: var(--primary);
+        color: var(--light);
     }
 }
 
